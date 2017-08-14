@@ -1,0 +1,62 @@
+html {
+  body {
+    .mainMenu {
+      width: 100%;
+      height: auto;
+      background-color: #F5F5F5;
+      .container {
+        .titleOfPage {
+          width: 100%;
+          height: auto;
+          h2 {
+            @extend %dateForText;
+            color: #000;
+            font-size: 40px;
+            letter-spacing: 0.1em;
+            padding: 15% 0 7%;
+          }
+        }
+        .container-flex {
+          @extend %container-flex;
+          flex-wrap: wrap;
+          .blockOfDish {
+            width: calc(100% / 3 - 4%);
+            h2 {
+              @extend %dateForText;
+              color: #363636;
+              font-size: 36px;
+              letter-spacing: 0.1em;
+              margin: 5% 0 0;
+            }
+            img {
+              width: calc(100% / 1.5);
+              display: block;
+              margin: 0 auto;
+              height: 40px;
+            }
+            hr {
+              width: calc(100% / 1.5);
+            }
+            .dish {
+              width: 100%;
+              .nameOfCourse {
+                @extend %dateForText;
+                color: #4F4F4F;
+                font-size: 20px;
+                letter-spacing: 0.1em;
+                margin: 5% 0;
+              }
+              .compositionOfCourse {
+                @extend %dateForText;
+                color: #4F4F4F;
+                font-size: 14px;
+                letter-spacing: 0.1em;
+                margin: 0 0 7% 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

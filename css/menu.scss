@@ -1,0 +1,265 @@
+%back-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+html {
+  body {
+    .menu {
+      width: 100%;
+      height: 670px;
+      background: url("../img/x2.png") no-repeat;
+      background-size: 100% 100%;
+      .container {
+        .container-flex {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          height: 670px;
+          align-items: center;
+          .card {
+            position: relative;
+            width: calc(100% / 1.2);
+            .mainOfFoodContainer {
+              width: calc(100% / 6);
+              height: 130px;
+              position: absolute;
+              top: -50px;
+              right: -55px;
+              z-index: 1;
+              .foodReadiness {
+                position: relative;
+                width: 100%;
+                &:before {
+                  @extend %forBefore;
+                  padding: 47%;
+                }
+                .food-container {
+                  @extend %back-container;
+                  background: linear-gradient(to top right, #DCDCDC, #4F4F4F);
+                  .title {
+                    @extend %dateForText;
+                    color: #8B4513;
+                    font-size: 18px;
+                    padding: 10% 0 12% 0;
+                  }
+                  .time {
+                    @extend %dateForText;
+                    color: #4F4F4F;
+                    font-size: 40px;
+                    padding: 0 0 3% 0;
+                  }
+                  .minutes {
+                    @extend %dateForText;
+                    color: #4F4F4F;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+            .back-container {
+              @extend %back-container;
+              background: linear-gradient(to top left, #DCDCDC, #4F4F4F);
+              .flex {
+                @extend %container-flex;
+                .images-container {
+                  position: relative;
+                  width: calc(100% / 2 - 4px);
+                  .back-images-container {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/pexels-photo-461326.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b1 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/1.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b2 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/2.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b3 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/3.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b4 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/4.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b5 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/5.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b6 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/6.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b7 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/7.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b8 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/8.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+                  .b9 {
+                    @extend %back-container;
+                    background: url("../img/imgForMenu/imgForContainer/9.jpeg") no-repeat center center;
+                    background-size: cover;
+                  }
+
+                  &:before {
+                    @extend %forBefore;
+                    padding: 57.9%;
+                  }
+                }
+                .info-container {
+                  position: relative;
+                  width: calc(100% / 2 - 4px);
+                  .back-info-container {
+                    @extend %back-container;
+                    .info {
+                      height: calc(100% / 1.39);
+                      h2 {
+                        padding: 8% 20% 3% 12%;
+                        font-family: 'Playfair Display', serif;
+                        font-weight: 900;
+                        letter-spacing: 0.1em;
+                        font-size: 40px;
+                        color: #363636;
+                      }
+                      .underTitle {
+                        padding: 0 0 10% 12%;
+                        font-family: 'Playfair Display', serif;
+                        font-weight: 900;
+                        font-size: 15px;
+                        color: #8B4513;
+                      }
+                      p {
+                        padding: 0 12% 0 12%;
+                        font-family: 'Playfair Display', serif;
+                        font-weight: 900;
+                        letter-spacing: 0.1em;
+                        font-size: 14px;
+                        color: #4F4F4F;
+                      }
+                    }
+                    .carousel {
+                      position: relative;
+                      width: 100%;
+                      margin: 0 -4px;
+                      @media (min-width: 1100px) and (max-width: 1260px) {
+                        margin: 0 auto;
+                      }
+                      @media (min-width: 1100px) and (max-width: 1250px) {
+                        margin: 0 auto;
+                      }
+                      .back-carousel-container {
+                        @extend %back-container;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        .gallery {
+                          margin: 5px 0 0 0;
+                          width: 279px; //290px
+                          overflow: hidden;
+                          @media (min-width: 1100px) and (max-width: 1260px) {
+                            width: 184px;
+                          }
+                          @media (min-width: 1100px) and (max-width: 1250px) {
+                            width: 144px;
+                          }
+                          ul {
+                            height: 100px;
+                            width: 990px;
+                            margin: 0;
+                            padding: 0;
+                            list-style: none;
+                            transition: margin-left 250ms;
+                            /* remove white-space between inline-block'ed li */
+                            /* http://davidwalsh.name/remove-whitespace-inline-block */
+                            font-size: 0;
+                            @media (min-width: 1100px) and (max-width: 1250px) {
+                              margin: 20px 0 10px 0;
+                            }
+                            li {
+                              display: inline-block;
+                            }
+                          }
+                        }
+                        img {
+                          width: 90px;
+                          height: 90px;
+                          margin: 4px;
+                          /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
+                          display: block;
+                          &:first-child {
+                            margin-left: 0;
+                            &:hover {
+                              opacity: 0.7;
+                            }
+                          }
+                          @media (min-width: 1100px) and (max-width: 1250px) {
+                            width: 70px;
+                            height: 70px;
+                            margin: 3px;
+                          }
+                        }
+                        .last-imgForCarousel {
+                          margin-right: 0;
+                        }
+                        .arrow {
+                          padding: 0;
+                          height: 26%;
+                          align-self: center;
+                          background: #ddd;
+                          border-radius: 15px;
+                          border: 1px solid gray;
+                          font-size: 24px;
+                          line-height: 24px;
+                          color: #444;
+                          display: block;
+                          &:focus {
+                            outline: none;
+                          }
+                          &:hover {
+                            background: #ccc;
+                            cursor: pointer;
+                          }
+
+                        }
+                      }
+                      &:before {
+                        @extend %forBefore;
+                        padding: 14.5%;
+                      }
+                    }
+                  }
+                  &:before {
+                    @extend %forBefore;
+                    padding: 57.9%;
+                  }
+                }
+              }
+            }
+            &:before {
+              @extend %forBefore;
+              padding: 28.6%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

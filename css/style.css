@@ -1,0 +1,829 @@
+@charset "UTF-8";
+html body .navigation .container-flex, html body .artOfCakes .container-flex, html body .artOfCakes .container-flex .chefCook .row .leftQoutes, html body .artOfCakes .container-flex .chefCook .row .blockqt, html body .artOfCakes .container-flex .chefCook .row .rightQoutes, html body .artOfCakes .container-flex .collage .flex, html body .menu .container .container-flex .card .back-container .flex, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex, html body .sandwich .container .mainContainerForSandwich .container-flex, html body footer .container .container-flex, html body .mainMenu .container .container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+html body .navigation .container-flex {
+  height: 74px;
+  align-items: center; }
+
+html body .container {
+  width: calc(100% - 172px - 172px);
+  margin: auto;
+  height: auto; }
+html body .navigation {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #4F4F4F;
+  height: 74px; }
+  html body .navigation .container-flex .logo a {
+    text-decoration: none;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    color: #DCDCDC;
+    font-weight: 600; }
+  html body .navigation .container-flex .logo a:hover {
+    color: #9C9C9C; }
+  html body .navigation .container-flex .topMenu p, html body .navigation .container-flex .topMenu a {
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    margin-right: 14px;
+    text-decoration: none;
+    color: #DCDCDC; }
+  html body .navigation .container-flex .topMenu a:last-child {
+    margin-right: 0; }
+  html body .navigation .container-flex .topMenu a:hover {
+    color: #9C9C9C; }
+  html body .navigation .container-flex .logoOfSocialNetwork a {
+    color: #DCDCDC; }
+  html body .navigation .container-flex .logoOfSocialNetwork a:hover {
+    color: #9C9C9C; }
+
+html body .hero {
+  width: 100%;
+  height: 724px;
+  background: url("../img/backgroundForHero2.png") no-repeat;
+  background-size: 100% 100%;
+  text-align: center; }
+  html body .hero h1 {
+    padding: 160px 0 0 0;
+    margin: 0 0 22px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    color: #DCDCDC;
+    font-weight: 900;
+    letter-spacing: 0.1em; }
+  html body .hero hr {
+    width: 120px;
+    height: 2px;
+    background-color: #DCDCDC;
+    margin: 0 auto 45px; }
+  html body .hero p {
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    font-family: 'Playfair Display', serif;
+    color: #DCDCDC;
+    margin: 0 0 75px 0; }
+  html body .hero a {
+    text-decoration: none; }
+    html body .hero a span {
+      padding: 15px 30px;
+      border: 1px dashed #DCDCDC;
+      background-color: #4F4F4F; }
+      html body .hero a span i {
+        font-family: 'Playfair Display', serif;
+        color: #DCDCDC;
+        font-weight: 900; }
+  html body .hero span:hover {
+    opacity: 0.9; }
+    html body .hero span:hover i {
+      color: #9C9C9C; }
+@media (min-width: 1200px) and (max-width: 1261px) {
+  html body .hero {
+    background-size: 100% 95%; } }
+@media (min-width: 1100px) and (max-width: 1200px) {
+  html body .hero {
+    background-size: 100% 88%; } }
+
+html body .artOfCakes .container-flex .chefCook .row h2, html body .artOfCakes .container-flex .chefCook .row .firstPOfChefCookBox, html body .artOfCakes .container-flex .chefCook .row p, html body .artOfCakes .container-flex .chefCook .row .pForCook, html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .title, html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .time, html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .minutes, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast h2, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .timeOfBreakfast, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast h3, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .textForDish, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .price, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container i, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container h2, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container p, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container a span i, html body .sandwich .container .sandwichTitle h2, html body .sandwich .container .sandwichTitle p, html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a h3, html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a p, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .title, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .title, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .time, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .time, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .minutes, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .minutes, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .readyIn .title, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .readyIn .time, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .readyIn .minutes, html body .mainMenu .container .titleOfPage h2, html body .mainMenu .container .container-flex .blockOfDish h2, html body .mainMenu .container .container-flex .blockOfDish .dish .nameOfCourse, html body .mainMenu .container .container-flex .blockOfDish .dish .compositionOfCourse, html body .ourLocation .container p, html body .events .container p {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: 900; }
+
+html body {
+  background-color: #F5F5F5; }
+  html body .artOfCakes {
+    height: auto;
+    width: 100%; }
+    html body .artOfCakes .container-flex {
+      margin: 45px 0 0 0; }
+      html body .artOfCakes .container-flex .chefCook {
+        width: calc(49%); }
+        html body .artOfCakes .container-flex .chefCook .row {
+          padding: 0 45px; }
+          html body .artOfCakes .container-flex .chefCook .row h2 {
+            letter-spacing: 0.1em;
+            font-size: 40px;
+            color: #363636;
+            margin: 0 0 20px 0; }
+          html body .artOfCakes .container-flex .chefCook .row .firstPOfChefCookBox {
+            color: #8B4513;
+            font-size: 15px;
+            margin: 0 0 60px 0; }
+          html body .artOfCakes .container-flex .chefCook .row p {
+            font-size: 14px;
+            letter-spacing: 0.1em;
+            color: #4F4F4F;
+            margin: 0 0 50px 0; }
+          html body .artOfCakes .container-flex .chefCook .row .pForCook {
+            font-size: 32px;
+            color: #363636;
+            letter-spacing: 0.1em;
+            margin: 0 0 50px; }
+          html body .artOfCakes .container-flex .chefCook .row .container-inline-block .blockForLastNameOfCook, html body .artOfCakes .container-flex .chefCook .row .container-inline-block img, html body .artOfCakes .container-flex .chefCook .row .container-inline-block .blockForNameOfCook {
+            display: inline-block;
+            vertical-align: middle;
+            width: calc(100% / 3 - 5px); }
+          html body .artOfCakes .container-flex .chefCook .row .container-inline-block .blockForNameOfCook p, html body .artOfCakes .container-flex .chefCook .row .container-inline-block .blockForLastNameOfCook p {
+            vertical-align: middle;
+            font-family: 'Playfair Display', serif;
+            letter-spacing: 0.1em;
+            font-size: 1.4em;
+            color: #363636;
+            margin: 15px 0; }
+          html body .artOfCakes .container-flex .chefCook .row .leftQoutes {
+            align-items: flex-start; }
+            html body .artOfCakes .container-flex .chefCook .row .leftQoutes p {
+              transform-origin: center center 1px;
+              transform: rotate(180deg);
+              font-family: 'Tangerine', cursive;
+              font-size: 26px; }
+          html body .artOfCakes .container-flex .chefCook .row .blockqt {
+            align-items: center; }
+            html body .artOfCakes .container-flex .chefCook .row .blockqt p {
+              color: #8B4513;
+              font-family: 'Tangerine', cursive;
+              font-size: 26px; }
+          html body .artOfCakes .container-flex .chefCook .row .rightQoutes {
+            align-items: flex-end; }
+            html body .artOfCakes .container-flex .chefCook .row .rightQoutes p {
+              font-family: 'Tangerine', cursive;
+              transform: scale(1, -1);
+              font-size: 26px; }
+      html body .artOfCakes .container-flex .collage {
+        width: calc(49%); }
+        html body .artOfCakes .container-flex .collage .flex {
+          height: 100%;
+          align-items: center;
+          margin: 0; }
+          html body .artOfCakes .container-flex .collage .flex .container-flex {
+            height: 50%;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0; }
+            html body .artOfCakes .container-flex .collage .flex .container-flex img {
+              margin: 0 0 3% 0;
+              width: calc(100% / 2 - 1.4%);
+              height: calc(100% / 2); }
+            html body .artOfCakes .container-flex .collage .flex .container-flex img:nth-child(3), html body .artOfCakes .container-flex .collage .flex .container-flex img:nth-child(4) {
+              margin: 0; }
+            html body .artOfCakes .container-flex .collage .flex .container-flex .tastesSoGood {
+              height: calc(100% / 4.1);
+              width: calc(100% / 7.8);
+              position: absolute;
+              top: 1000px;
+              right: 321px;
+              margin: 0; }
+              @media (min-width: 1240px) and (max-width: 1261px) {
+                html body .artOfCakes .container-flex .collage .flex .container-flex .tastesSoGood {
+                  height: calc(100% / 4.1);
+                  width: calc(100% / 8);
+                  top: 1017px;
+                  right: 314px; } }
+              @media (min-width: 1200px) and (max-width: 1239px) {
+                html body .artOfCakes .container-flex .collage .flex .container-flex .tastesSoGood {
+                  height: calc(100% / 4.1);
+                  width: calc(100% / 8);
+                  top: 1011px;
+                  right: 310px; } }
+              @media (min-width: 1150px) and (max-width: 1199px) {
+                html body .artOfCakes .container-flex .collage .flex .container-flex .tastesSoGood {
+                  height: calc(100% / 4.1);
+                  width: calc(100% / 8.3);
+                  top: 1020px;
+                  right: 305px; } }
+              @media (min-width: 1100px) and (max-width: 1149px) {
+                html body .artOfCakes .container-flex .collage .flex .container-flex .tastesSoGood {
+                  height: calc(100% / 4);
+                  width: calc(100% / 8.3);
+                  top: 1024px;
+                  right: 292px; } }
+
+html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container, html body .menu .container .container-flex .card .back-container, html body .menu .container .container-flex .card .back-container .flex .images-container .back-images-container, html body .menu .container .container-flex .card .back-container .flex .images-container .b1, html body .menu .container .container-flex .card .back-container .flex .images-container .b2, html body .menu .container .container-flex .card .back-container .flex .images-container .b3, html body .menu .container .container-flex .card .back-container .flex .images-container .b4, html body .menu .container .container-flex .card .back-container .flex .images-container .b5, html body .menu .container .container-flex .card .back-container .flex .images-container .b6, html body .menu .container .container-flex .card .back-container .flex .images-container .b7, html body .menu .container .container-flex .card .back-container .flex .images-container .b8, html body .menu .container .container-flex .card .back-container .flex .images-container .b9, html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container, html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container, html body .breakfast .container .breakfast-container .breakfast-back-container, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr .img-hr-container, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2 .card-2-container, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-3 .card-3-container, html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich .img-back-containerSandwich, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+html body .menu {
+  width: 100%;
+  height: 670px;
+  background: url("../img/x2.png") no-repeat;
+  background-size: 100% 100%; }
+  html body .menu .container .container-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 670px;
+    align-items: center; }
+    html body .menu .container .container-flex .card {
+      position: relative;
+      width: calc(100% / 1.2); }
+      html body .menu .container .container-flex .card .mainOfFoodContainer {
+        width: calc(100% / 6);
+        height: 130px;
+        position: absolute;
+        top: -50px;
+        right: -55px;
+        z-index: 1; }
+        html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness {
+          position: relative;
+          width: 100%; }
+          html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness:before {
+            padding: 47%; }
+          html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container {
+            background: linear-gradient(to top right, #DCDCDC, #4F4F4F); }
+            html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .title {
+              color: #8B4513;
+              font-size: 18px;
+              padding: 10% 0 12% 0; }
+            html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .time {
+              color: #4F4F4F;
+              font-size: 40px;
+              padding: 0 0 3% 0; }
+            html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .minutes {
+              color: #4F4F4F;
+              font-size: 14px; }
+      html body .menu .container .container-flex .card .back-container {
+        background: linear-gradient(to top left, #DCDCDC, #4F4F4F); }
+        html body .menu .container .container-flex .card .back-container .flex .images-container {
+          position: relative;
+          width: calc(100% / 2 - 4px); }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .back-images-container {
+            background: url("../img/imgForMenu/imgForContainer/pexels-photo-461326.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b1 {
+            background: url("../img/imgForMenu/imgForContainer/1.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b2 {
+            background: url("../img/imgForMenu/imgForContainer/2.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b3 {
+            background: url("../img/imgForMenu/imgForContainer/3.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b4 {
+            background: url("../img/imgForMenu/imgForContainer/4.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b5 {
+            background: url("../img/imgForMenu/imgForContainer/5.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b6 {
+            background: url("../img/imgForMenu/imgForContainer/6.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b7 {
+            background: url("../img/imgForMenu/imgForContainer/7.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b8 {
+            background: url("../img/imgForMenu/imgForContainer/8.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container .b9 {
+            background: url("../img/imgForMenu/imgForContainer/9.jpeg") no-repeat center center;
+            background-size: cover; }
+          html body .menu .container .container-flex .card .back-container .flex .images-container:before {
+            padding: 57.9%; }
+        html body .menu .container .container-flex .card .back-container .flex .info-container {
+          position: relative;
+          width: calc(100% / 2 - 4px); }
+          html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .info {
+            height: calc(100% / 1.39); }
+            html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .info h2 {
+              padding: 8% 20% 3% 12%;
+              font-family: 'Playfair Display', serif;
+              font-weight: 900;
+              letter-spacing: 0.1em;
+              font-size: 40px;
+              color: #363636; }
+            html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .info .underTitle {
+              padding: 0 0 10% 12%;
+              font-family: 'Playfair Display', serif;
+              font-weight: 900;
+              font-size: 15px;
+              color: #8B4513; }
+            html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .info p {
+              padding: 0 12% 0 12%;
+              font-family: 'Playfair Display', serif;
+              font-weight: 900;
+              letter-spacing: 0.1em;
+              font-size: 14px;
+              color: #4F4F4F; }
+          html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel {
+            position: relative;
+            width: 100%;
+            margin: 0 -4px; }
+            @media (min-width: 1100px) and (max-width: 1260px) {
+              html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel {
+                margin: 0 auto; } }
+            @media (min-width: 1100px) and (max-width: 1250px) {
+              html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel {
+                margin: 0 auto; } }
+            html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container {
+              width: 100%;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around; }
+              html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .gallery {
+                margin: 5px 0 0 0;
+                width: 279px;
+                overflow: hidden; }
+                @media (min-width: 1100px) and (max-width: 1260px) {
+                  html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .gallery {
+                    width: 184px; } }
+                @media (min-width: 1100px) and (max-width: 1250px) {
+                  html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .gallery {
+                    width: 144px; } }
+                html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .gallery ul {
+                  height: 100px;
+                  width: 990px;
+                  margin: 0;
+                  padding: 0;
+                  list-style: none;
+                  transition: margin-left 250ms;
+                  /* remove white-space between inline-block'ed li */
+                  /* http://davidwalsh.name/remove-whitespace-inline-block */
+                  font-size: 0; }
+                  @media (min-width: 1100px) and (max-width: 1250px) {
+                    html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .gallery ul {
+                      margin: 20px 0 10px 0; } }
+                  html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .gallery ul li {
+                    display: inline-block; }
+              html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container img {
+                width: 90px;
+                height: 90px;
+                margin: 4px;
+                /* по умолчанию inline, в ряде браузеров это даст лишнее пространство вокруг элементов */
+                display: block; }
+                html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container img:first-child {
+                  margin-left: 0; }
+                  html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container img:first-child:hover {
+                    opacity: 0.7; }
+                @media (min-width: 1100px) and (max-width: 1250px) {
+                  html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container img {
+                    width: 70px;
+                    height: 70px;
+                    margin: 3px; } }
+              html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .last-imgForCarousel {
+                margin-right: 0; }
+              html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .arrow {
+                padding: 0;
+                height: 26%;
+                align-self: center;
+                background: #ddd;
+                border-radius: 15px;
+                border: 1px solid gray;
+                font-size: 24px;
+                line-height: 24px;
+                color: #444;
+                display: block; }
+                html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .arrow:focus {
+                  outline: none; }
+                html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container .arrow:hover {
+                  background: #ccc;
+                  cursor: pointer; }
+            html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel:before {
+              padding: 14.5%; }
+          html body .menu .container .container-flex .card .back-container .flex .info-container:before {
+            padding: 57.9%; }
+      html body .menu .container .container-flex .card:before {
+        padding: 28.6%; }
+
+html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness:before, html body .menu .container .container-flex .card .back-container .flex .images-container:before, html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel:before, html body .menu .container .container-flex .card .back-container .flex .info-container:before, html body .menu .container .container-flex .card:before, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr:before, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast:before, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations:before, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2:before, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-3:before, html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich:before, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich:before {
+  content: "";
+  display: block; }
+
+html body .breakfast {
+  width: 100%;
+  height: 670px;
+  background: url("../img/imgForBreakfast.jpeg") no-repeat 100% 100%;
+  background-size: cover; }
+  html body .breakfast .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 670px;
+    align-items: center; }
+  html body .breakfast .container .breakfast-container {
+    position: relative;
+    width: calc(100% / 1.1); }
+    html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast {
+      position: relative;
+      width: calc(100% / 2 - 2%); }
+      html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast {
+        padding: 2%; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast h2 {
+          color: #FFFFFF;
+          font-size: 40px;
+          margin: 0 0 2.5% 0;
+          letter-spacing: 0.1em; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .timeOfBreakfast {
+          color: #8B4513;
+          font-size: 15px;
+          margin: 0 0 8% 0; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast h3 {
+          color: #FFFFFF;
+          font-size: 24px;
+          margin: 0 0 1.5% 0; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .textForDish {
+          color: #4F4F4F;
+          font-size: 14px;
+          margin: 0 0 1.2% 0; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .price {
+          color: #8B7500;
+          font-size: 20px; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr {
+          position: relative;
+          width: calc(100% / 3);
+          margin: 0 auto; }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr .img-hr-container {
+            background: url("../img/hr.png") no-repeat 100% 100%;
+            background-size: cover;
+            margin: 0 auto; }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr:before {
+            padding: 11%; }
+      html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast:before {
+        padding: 58%; }
+    html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast {
+      position: relative;
+      width: calc(100% / 2 - 2%); }
+      html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex {
+        justify-content: center;
+        height: 100%;
+        align-items: center; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations {
+          position: relative;
+          width: calc(100% / 1.3); }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background {
+            width: 100%;
+            height: 87%;
+            background-color: #E8E8E8; }
+            html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations {
+              width: 100%;
+              height: 100%;
+              padding: 2% 0 0 0; }
+              html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container {
+                width: 95%;
+                height: 89%;
+                margin: 0 2%;
+                border: 2px dashed #696969;
+                border-bottom: none;
+                padding: 10% 0 0 0; }
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container i {
+                  color: #8B7500;
+                  font-size: 16px; }
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container #month {
+                  margin: 0 4% 0 0; }
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container #date {
+                  margin: 0 22% 0 4%; }
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container h2 {
+                  color: #363636;
+                  font-size: 40px;
+                  margin: 0 0 15% 0; }
+                  @media (min-width: 1200px) and (max-width: 1260px) {
+                    html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container h2 {
+                      font-size: 36px; } }
+                  @media (min-width: 1150px) and (max-width: 1199px) {
+                    html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container h2 {
+                      font-size: 32px; } }
+                  @media (min-width: 1100px) and (max-width: 1149px) {
+                    html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container h2 {
+                      font-size: 26px; } }
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container p {
+                  color: #4F4F4F;
+                  font-size: 14px;
+                  margin: 0 0 22% 0; }
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container img {
+                  width: 100%;
+                  margin: 0; }
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container a {
+                  text-decoration: none;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center; }
+                  html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container a span {
+                    display: inline-block;
+                    padding: 15px 30px;
+                    border: 1px solid #DCDCDC;
+                    background-color: transparent;
+                    margin: 0 auto; }
+                    html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container a span i {
+                      color: #4F4F4F;
+                      font-size: 16px; }
+                    html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container a span:hover {
+                      border: 2px solid #DCDCDC; }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .bottom-background {
+            width: 81.8%;
+            height: 13%;
+            float: right;
+            background-color: #E8E8E8; }
+            html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .bottom-background .cont-flex {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap; }
+            html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .bottom-background .bottomPartOfCardForReservations {
+              width: 100%;
+              height: 100%; }
+              html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .bottom-background .bottomPartOfCardForReservations .borderBottom-container {
+                width: 98%;
+                height: 87%;
+                float: right;
+                margin: 0 2% 2% 0;
+                border: 2px dashed #696969;
+                border-top: none;
+                border-left: none; }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle {
+            width: 18%;
+            height: 13%; }
+            html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 0;
+              height: 0;
+              border-top: 58px solid #FFFFFF;
+              border-left: 58px solid transparent; }
+              @media (min-width: 1200px) and (max-width: 1260px) {
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
+                  border-top: 56px solid #FFFFFF;
+                  border-left: 56px solid transparent; } }
+              @media (min-width: 1150px) and (max-width: 1199px) {
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
+                  border-top: 52px solid #FFFFFF;
+                  border-left: 52px solid transparent; } }
+              @media (min-width: 1100px) and (max-width: 1149px) {
+                html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
+                  border-top: 50px solid #FFFFFF;
+                  border-left: 50px solid transparent; } }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations:before {
+            padding: 70%; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2 {
+          position: relative;
+          width: calc(100% / 20); }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2 .card-2-container {
+            background-color: #CFCFCF; }
+            html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2 .card-2-container .containerForBorder-2 {
+              width: 66.5%;
+              height: 96.5%;
+              margin: 10%;
+              border: 2px dashed #696969;
+              border-left: none; }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2:before {
+            padding: 689%; }
+        html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-3 {
+          position: relative;
+          width: calc(100% / 19); }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-3 .card-3-container {
+            background-color: #B5B5B5; }
+            html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-3 .card-3-container .containerForBorder-3 {
+              width: 66.5%;
+              height: 96.5%;
+              margin: 10%;
+              border: 2px dashed #696969;
+              border-left: none; }
+          html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-3:before {
+            padding: 575%; }
+      html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast:before {
+        content: "";
+        display: block;
+        padding: 58%; }
+    html body .breakfast .container .breakfast-container:before {
+      content: "";
+      display: block;
+      padding: 28%; }
+
+html body .sandwich {
+  width: 100%;
+  height: auto; }
+  html body .sandwich .container .sandwichTitle {
+    width: 100%;
+    height: auto;
+    background: url("../img/imgForSandwich/starburst.png") 100% 100% no-repeat;
+    background-size: cover; }
+    html body .sandwich .container .sandwichTitle h2 {
+      color: #363636;
+      font-size: 40px;
+      letter-spacing: 0.1em;
+      padding: 8% 0 2%; }
+    html body .sandwich .container .sandwichTitle p {
+      color: #8B4513;
+      font-size: 15px; }
+  html body .sandwich .container .mainContainerForSandwich {
+    width: 100%;
+    height: auto; }
+    html body .sandwich .container .mainContainerForSandwich .container-flex .left-container {
+      width: calc(100% / 4 - 5%);
+      height: auto; }
+      html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure {
+        width: 100%;
+        height: auto; }
+        html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a {
+          text-decoration: none; }
+          html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich {
+            position: relative;
+            width: calc(100% / 2);
+            margin: 0 auto; }
+            html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich .img-back-containerSandwich {
+              background: url("../img/imgForSandwich/bread-food-plate-rucola.jpg") no-repeat 100% 100%;
+              background-size: cover;
+              border-radius: 50%; }
+              html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich .img-back-containerSandwich:hover {
+                opacity: 0.8; }
+            html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich .img-2 {
+              background: url("../img/imgForSandwich/bread-food-salad-sandwich.jpg") no-repeat 100% 100%;
+              background-size: cover; }
+            html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich .img-3 {
+              background: url("../img/imgForSandwich/pexels-photo-133578.jpeg") no-repeat 100% 100%;
+              background-size: cover; }
+            html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich:before {
+              padding: 50%; }
+          html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a h3 {
+            font-size: 24px;
+            color: #8B4513;
+            margin: 5% 0 2%; }
+            html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a h3:hover {
+              opacity: 0.7; }
+          html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a p {
+            font-size: 14px;
+            color: #4F4F4F;
+            margin: 0 0 20%; }
+    html body .sandwich .container .mainContainerForSandwich .container-flex .right-container {
+      width: calc(100% / 4 * 3 - 5%);
+      height: auto; }
+      html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich {
+        position: relative;
+        width: 100%;
+        border: 1px solid #4F4F4F;
+        align-self: center; }
+        html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich {
+          border: 4px solid #FFFFFF;
+          background: url("../img/imgForSandwich/pexels-photo-203089.jpeg") no-repeat 100% 100%;
+          background-size: cover; }
+          html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .container-flex {
+            justify-content: flex-end; }
+          html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime {
+            width: 100%;
+            height: 100%; }
+            html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime {
+              width: calc(100% / 5);
+              height: 115%;
+              align-self: center; }
+              html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .whileBlock {
+                width: 100%;
+                height: calc(100% / 16);
+                background-color: #FFFFFF; }
+              html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook {
+                width: 100%;
+                height: calc(100% / 3.45);
+                background-color: #FFFFFF;
+                opacity: 0.6;
+                margin: 0 0 1% 0; }
+                html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .title, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .title {
+                  color: #8B4513;
+                  font-size: 18px;
+                  padding: 10% 0 20% 0; }
+                html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .time, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .time {
+                  color: #4F4F4F;
+                  font-size: 40px;
+                  padding: 0 0 5% 0; }
+                html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .minutes, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .minutes {
+                  color: #4F4F4F;
+                  font-size: 14px; }
+              html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .readyIn {
+                width: 100%;
+                height: calc(100% / 3.45);
+                background: linear-gradient(to top right, #E8E8E8, #FFFFFF); }
+                html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .readyIn .title {
+                  color: #8B4513;
+                  font-size: 18px;
+                  padding: 10% 0 20% 0; }
+                html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .readyIn .time {
+                  color: #4F4F4F;
+                  font-size: 40px;
+                  padding: 0 0 5% 0; }
+                html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .readyIn .minutes {
+                  color: #4F4F4F;
+                  font-size: 14px; }
+        html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich:before {
+          padding: 32%; }
+
+html body footer {
+  width: 100%;
+  height: auto;
+  padding: 5% 0; }
+  html body footer .container .container-flex .left-block, html body footer .container .container-flex .right-block {
+    width: calc(100% / 1.3);
+    height: auto;
+    border: 1px solid #000000;
+    border-left: none;
+    border-right: none; }
+    html body footer .container .container-flex .left-block a, html body footer .container .container-flex .left-block p, html body footer .container .container-flex .right-block a, html body footer .container .container-flex .right-block p {
+      text-decoration: none;
+      display: inline-block;
+      padding: 5% 1% 5% 5%;
+      font-family: 'Playfair Display', serif;
+      color: #4F4F4F;
+      font-size: 16px; }
+      @media (min-width: 1150px) and (max-width: 1210px) {
+        html body footer .container .container-flex .left-block a, html body footer .container .container-flex .left-block p, html body footer .container .container-flex .right-block a, html body footer .container .container-flex .right-block p {
+          font-size: 14px; } }
+      @media (min-width: 1100px) and (max-width: 1149px) {
+        html body footer .container .container-flex .left-block a, html body footer .container .container-flex .left-block p, html body footer .container .container-flex .right-block a, html body footer .container .container-flex .right-block p {
+          font-size: 13px; } }
+    html body footer .container .container-flex .left-block a:hover, html body footer .container .container-flex .right-block a:hover {
+      color: #000000; }
+  html body footer .container .container-flex .logo-block {
+    width: calc(100% / 3);
+    height: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    html body footer .container .container-flex .logo-block a {
+      text-decoration: none;
+      font-family: 'Tangerine', cursive;
+      font-size: 40px;
+      letter-spacing: 0.2em;
+      font-weight: 600;
+      color: #4F4F4F; }
+    html body footer .container .container-flex .logo-block a:hover {
+      color: #9C9C9C; }
+html body #updown {
+  height: 35px;
+  width: 35px;
+  position: fixed;
+  bottom: 30px;
+  left: 25px;
+  cursor: pointer;
+  border-radius: 20px; }
+html body #updown.up {
+  background: url("../img/top.jpg") left top;
+  background-size: cover; }
+html body #updown.down {
+  background: url("../img/bottom.jpg") left top;
+  background-size: cover; }
+
+html body .mainMenu {
+  width: 100%;
+  height: auto;
+  background-color: #F5F5F5; }
+  html body .mainMenu .container .titleOfPage {
+    width: 100%;
+    height: auto; }
+    html body .mainMenu .container .titleOfPage h2 {
+      color: #000;
+      font-size: 40px;
+      letter-spacing: 0.1em;
+      padding: 15% 0 7%; }
+  html body .mainMenu .container .container-flex {
+    flex-wrap: wrap; }
+    html body .mainMenu .container .container-flex .blockOfDish {
+      width: calc(100% / 3 - 4%); }
+      html body .mainMenu .container .container-flex .blockOfDish h2 {
+        color: #363636;
+        font-size: 36px;
+        letter-spacing: 0.1em;
+        margin: 5% 0 0; }
+      html body .mainMenu .container .container-flex .blockOfDish img {
+        width: calc(100% / 1.5);
+        display: block;
+        margin: 0 auto;
+        height: 40px; }
+      html body .mainMenu .container .container-flex .blockOfDish hr {
+        width: calc(100% / 1.5); }
+      html body .mainMenu .container .container-flex .blockOfDish .dish {
+        width: 100%; }
+        html body .mainMenu .container .container-flex .blockOfDish .dish .nameOfCourse {
+          color: #4F4F4F;
+          font-size: 20px;
+          letter-spacing: 0.1em;
+          margin: 5% 0; }
+        html body .mainMenu .container .container-flex .blockOfDish .dish .compositionOfCourse {
+          color: #4F4F4F;
+          font-size: 14px;
+          letter-spacing: 0.1em;
+          margin: 0 0 7% 0; }
+
+html body .ourLocation {
+  width: 100%;
+  background-color: #F5F5F5; }
+  html body .ourLocation .container p {
+    color: #363636;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    padding: 22% 0 10%; }
+    html body .ourLocation .container p:last-child {
+      padding: 0 0 9%; }
+
+html body .events {
+  width: 100%;
+  background-color: #F5F5F5; }
+  html body .events .container p {
+    color: #363636;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    padding: 22% 0 20%; }
+
+/*# sourceMappingURL=style.css.map */

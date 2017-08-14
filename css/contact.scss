@@ -1,0 +1,20 @@
+html {
+  body {
+    .ourLocation {
+      width: 100%;
+      background-color: #F5F5F5;
+      .container {
+        p {
+          @extend %dateForText;
+          color: #363636;
+          font-size: 32px;
+          letter-spacing: 0.1em;
+          padding: 22% 0 10%;
+          &:last-child {
+            padding: 0 0 9%;
+          }
+        }
+      }
+    }
+  }
+}

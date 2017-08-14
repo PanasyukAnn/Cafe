@@ -1,0 +1,65 @@
+%container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}%container-flexDop {
+   height: 74px;
+   align-items: center;
+ }
+html {
+  body {
+    .container {
+      width: calc(100% - 172px - 172px);
+      margin: auto;
+      height: auto;
+    }
+    .navigation {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 10;
+      background-color: #4F4F4F;
+      height: 74px;
+      .container-flex {
+        @extend %container-flex;
+        @extend %container-flexDop;
+        .logo {
+          a {
+            text-decoration: none;
+            font-family: 'Tangerine', cursive;
+            font-size: 40px;
+            letter-spacing: 0.2em;
+            color: #DCDCDC;
+            font-weight: 600;
+          }
+          a:hover {
+            color: #9C9C9C;
+          }
+        }
+        .topMenu {
+          p, a {
+            font-family: 'Playfair Display', serif;
+            display: inline-block;
+            margin-right: 14px;
+            text-decoration: none;
+            color: #DCDCDC;
+          }
+          a:last-child {
+            margin-right: 0;
+          }
+          a:hover {
+            color: #9C9C9C;
+          }
+        }
+        .logoOfSocialNetwork {
+          a {
+            color: #DCDCDC;
+          }
+          a:hover {
+            color: #9C9C9C;
+          }
+        }
+      }
+    }
+  }
+}

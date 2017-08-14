@@ -1,0 +1,17 @@
+html {
+  body {
+    .events {
+      width: 100%;
+      background-color: #F5F5F5;
+      .container {
+        p {
+          @extend %dateForText;
+          color: #363636;
+          font-size: 40px;
+          letter-spacing: 0.1em;
+          padding: 22% 0 20%;
+        }
+      }
+    }
+  }
+}
