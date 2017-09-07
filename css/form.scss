@@ -1,0 +1,74 @@
+html {
+  body {
+    #main {
+      text-align: center;
+      margin: 12% 5% 0;
+      p {
+        @extend %dateForText;
+        color: #363636;
+        font-size: 32px;
+        letter-spacing: 0.1em;
+      }
+      @media (min-width: 550px) and (max-width: 850px) {
+        margin: 22% 5% 0;
+      }
+      @media (min-width: 299px) and (max-width: 549px) {
+        margin: 28% 5% 0;
+      }
+    }
+    #container-flex {
+      @extend %container-flex;
+      #back-img {
+        position: relative;
+        width: calc(100% / 2);
+        #secondContainer {
+          @extend %back-container;
+          background: url("../img/x.png") 100% 100% no-repeat;
+          background-size: contain;
+          margin: 8% 5% 0;
+        }
+        &:before {
+          @extend %forBefore;
+          padding: 50%;
+        }
+        @media (min-width: 299px) and (max-width: 549px) {
+          width: 100%;
+        }
+      }
+      #backForForm {
+        position: relative;
+        width: calc(100% / 2);
+
+        #reservations {
+          @extend %back-container;
+          text-align: center;
+          margin: 15% 0 30%;
+          p {
+            @extend %dateForText;
+            color: #363636;
+            font-size: 24px;
+            letter-spacing: 0.1em;
+            padding: 1.8% 0;
+          }
+          #send {
+            margin: 2%;
+            &:hover {
+              color: #000;
+              opacity: 0.9;
+            }
+          }
+        }
+        &:before {
+          @extend %forBefore;
+          padding: 42%;
+        }
+        @media (min-width: 299px) and (max-width: 549px) {
+          width: 100%;
+        }
+      }
+      @media (min-width: 299px) and (max-width: 549px) {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}
