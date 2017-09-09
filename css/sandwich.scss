@@ -116,19 +116,19 @@ html {
                         .title {
                           @extend %dateForText;
                           color: #8B4513;
-                          font-size: 18px;
+                          font-size: 1.6vw;
                           padding: 10% 0 20% 0;
                         }
                         .time {
                           @extend %dateForText;
                           color: #4F4F4F;
-                          font-size: 40px;
+                          font-size: 3vw;
                           padding: 0 0 5% 0;
                         }
                         .minutes {
                           @extend %dateForText;
                           color: #4F4F4F;
-                          font-size: 14px;
+                          font-size: 1.3vw;
                         }
                       }
                       .readyIn {
@@ -138,19 +138,19 @@ html {
                         .title {
                           @extend %dateForText;
                           color: #8B4513;
-                          font-size: 18px;
+                          font-size: 1.6vw;
                           padding: 10% 0 20% 0;
                         }
                         .time {
                           @extend %dateForText;
                           color: #4F4F4F;
-                          font-size: 40px;
+                          font-size: 3vw;
                           padding: 0 0 5% 0;
                         }
                         .minutes {
                           @extend %dateForText;
                           color: #4F4F4F;
-                          font-size: 14px;
+                          font-size: 1.2vw;
                         }
                       }
                     }
