@@ -19,13 +19,7 @@ html {
               padding: 5% 1% 5% 5%;
               font-family: 'Playfair Display', serif;
               color: #4F4F4F;
-              font-size: 16px;
-              @media (min-width: 1150px) and (max-width: 1210px) {
-                font-size: 14px;
-              }
-              @media (min-width: 1100px) and (max-width: 1149px) {
-                font-size: 13px;
-              }
+              font-size: 1.1vw;
             }
             a:hover {
               color: #000000;
@@ -41,7 +35,7 @@ html {
             a {
               text-decoration: none;
               font-family: 'Tangerine', cursive;
-              font-size: 40px;
+              font-size: 3vw;
               letter-spacing: 0.2em;
               font-weight: 600;
               color: #4F4F4F;

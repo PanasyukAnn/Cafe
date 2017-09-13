@@ -5,43 +5,49 @@ html body .navigation .container-flex, html body .artOfCakes .container-flex, ht
   justify-content: space-between; }
 
 html body .navigation .container-flex {
-  height: 74px;
+  height: 6vw;
   align-items: center; }
 
-html body .container {
-  width: calc(100% - 172px - 172px);
-  margin: auto;
-  height: auto; }
-html body .navigation {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 10;
-  background-color: #4F4F4F;
-  height: 74px; }
-  html body .navigation .container-flex .logo a {
-    text-decoration: none;
-    font-family: 'Tangerine', cursive;
-    font-size: 40px;
-    letter-spacing: 0.2em;
-    color: #DCDCDC;
-    font-weight: 600; }
-  html body .navigation .container-flex .logo a:hover {
-    color: #9C9C9C; }
-  html body .navigation .container-flex .topMenu p, html body .navigation .container-flex .topMenu a {
-    font-family: 'Playfair Display', serif;
-    display: inline-block;
-    margin-right: 14px;
-    text-decoration: none;
-    color: #DCDCDC; }
-  html body .navigation .container-flex .topMenu a:last-child {
-    margin-right: 0; }
-  html body .navigation .container-flex .topMenu a:hover {
-    color: #9C9C9C; }
-  html body .navigation .container-flex .logoOfSocialNetwork a {
-    color: #DCDCDC; }
-  html body .navigation .container-flex .logoOfSocialNetwork a:hover {
-    color: #9C9C9C; }
+html body {
+  overflow-x: hidden; }
+  html body .container {
+    width: calc(100% - 15vw - 15vw);
+    margin: auto;
+    height: auto; }
+  html body .navigation {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #4F4F4F;
+    height: 6vw; }
+    html body .navigation .container-flex .logo a {
+      text-decoration: none;
+      font-family: 'Tangerine', cursive;
+      font-size: 3vw;
+      letter-spacing: 0.2em;
+      color: #DCDCDC;
+      font-weight: 600;
+      vertical-align: middle; }
+    html body .navigation .container-flex .logo a:hover {
+      color: #9C9C9C; }
+    html body .navigation .container-flex .topMenu p, html body .navigation .container-flex .topMenu a {
+      font-family: 'Playfair Display', serif;
+      display: inline-block;
+      margin-right: 14px;
+      font-size: 1.4vw;
+      text-decoration: none;
+      color: #DCDCDC; }
+    html body .navigation .container-flex .topMenu a:last-child {
+      margin-right: 0; }
+    html body .navigation .container-flex .topMenu a:hover {
+      color: #9C9C9C; }
+    html body .navigation .container-flex .logoOfSocialNetwork a {
+      color: #DCDCDC; }
+      html body .navigation .container-flex .logoOfSocialNetwork a i {
+        font-size: 2.5vw; }
+    html body .navigation .container-flex .logoOfSocialNetwork a:hover {
+      color: #9C9C9C; }
 
 html body .containerForHero {
   position: relative;
@@ -51,24 +57,24 @@ html body .containerForHero {
     background-size: 100% 100%;
     text-align: center; }
     html body .containerForHero .hero h1 {
-      padding: 160px 0 0 0;
-      margin: 0 0 22px 0;
+      padding: 17% 0 0 0;
+      margin: 0 0 2.5vw 0;
       font-family: 'Playfair Display', serif;
       font-size: 5vw;
       color: #DCDCDC;
       font-weight: 900;
       letter-spacing: 0.1em; }
     html body .containerForHero .hero hr {
-      width: 120px;
-      height: 2px;
+      width: 10vw;
+      height: 0.1vw;
       background-color: #DCDCDC;
-      margin: 0 auto 45px; }
+      margin: 0 auto 3.5vw; }
     html body .containerForHero .hero p {
       font-size: 3vw;
       letter-spacing: 0.1em;
       font-family: 'Playfair Display', serif;
       color: #DCDCDC;
-      margin: 0 6% 75px; }
+      margin: 0 3vw 7vw; }
       @media (min-width: 299px) and (max-width: 599px) {
         html body .containerForHero .hero p {
           font-weight: 900; } }
@@ -82,7 +88,11 @@ html body .containerForHero {
           font-family: 'Playfair Display', serif;
           color: #DCDCDC;
           font-weight: 900;
-          font-size: 1.4vw; }
+          font-size: 1.35vw;
+          vertical-align: middle; }
+          @media (min-width: 299px) and (max-width: 599px) {
+            html body .containerForHero .hero a span i {
+              font-size: 3vw; } }
     html body .containerForHero .hero span:hover {
       opacity: 0.9; }
       html body .containerForHero .hero span:hover i {
@@ -99,32 +109,45 @@ html body {
   background-color: #F5F5F5; }
   html body .artOfCakes {
     height: auto;
-    width: 100%; }
-    html body .artOfCakes .container-flex {
-      margin: 45px 0 0 0; }
-      html body .artOfCakes .container-flex .chefCook {
-        width: calc(100% / 2); }
-        html body .artOfCakes .container-flex .chefCook .row {
-          padding: 0 45px; }
-          html body .artOfCakes .container-flex .chefCook .row h2 {
-            letter-spacing: 0.1em;
-            font-size: 40px;
-            color: #363636;
-            margin: 0 0 20px 0; }
-          html body .artOfCakes .container-flex .chefCook .row .firstPOfChefCookBox {
-            color: #8B4513;
-            font-size: 15px;
-            margin: 0 0 60px 0; }
-          html body .artOfCakes .container-flex .chefCook .row p {
-            font-size: 14px;
-            letter-spacing: 0.1em;
-            color: #4F4F4F;
-            margin: 0 0 50px 0; }
-          html body .artOfCakes .container-flex .chefCook .row .pForCook {
-            font-size: 32px;
-            color: #363636;
-            letter-spacing: 0.1em;
-            margin: 0 0 50px; }
+    width: 100%;
+    margin: 3vw 0 0; }
+    html body .artOfCakes .container-flex .chefCook {
+      width: calc(100% / 2); }
+      html body .artOfCakes .container-flex .chefCook .row {
+        padding: 0 3vw; }
+        html body .artOfCakes .container-flex .chefCook .row h2 {
+          letter-spacing: 0.1em;
+          font-size: 3.2vw;
+          color: #363636;
+          margin: 0 0 1.4vw 0; }
+          @media (min-width: 299px) and (max-width: 599px) {
+            html body .artOfCakes .container-flex .chefCook .row h2 {
+              font-size: 5vw; } }
+        html body .artOfCakes .container-flex .chefCook .row .firstPOfChefCookBox {
+          color: #8B4513;
+          font-size: 1.2vw;
+          margin: 0 0 4.8vw 0; }
+          @media (min-width: 299px) and (max-width: 599px) {
+            html body .artOfCakes .container-flex .chefCook .row .firstPOfChefCookBox {
+              font-size: 3vw; } }
+        html body .artOfCakes .container-flex .chefCook .row p {
+          font-size: 1.6vw;
+          letter-spacing: 0.1em;
+          color: #4F4F4F;
+          margin: 0 0 4.5vw 0; }
+          @media (min-width: 299px) and (max-width: 599px) {
+            html body .artOfCakes .container-flex .chefCook .row p {
+              font-size: 3vw; } }
+        html body .artOfCakes .container-flex .chefCook .row .pForCook {
+          font-size: 2.8vw;
+          color: #363636;
+          letter-spacing: 0.1em;
+          margin: 0 0 4.5vw; }
+          @media (min-width: 299px) and (max-width: 599px) {
+            html body .artOfCakes .container-flex .chefCook .row .pForCook {
+              font-size: 4.5vw; } }
+        html body .artOfCakes .container-flex .chefCook .row .container-inline-block {
+          margin: 0 0 2vw; }
           html body .artOfCakes .container-flex .chefCook .row .container-inline-block .blockForLastNameOfCook, html body .artOfCakes .container-flex .chefCook .row .container-inline-block img, html body .artOfCakes .container-flex .chefCook .row .container-inline-block .blockForNameOfCook {
             display: inline-block;
             vertical-align: middle;
@@ -133,64 +156,79 @@ html body {
             vertical-align: middle;
             font-family: 'Playfair Display', serif;
             letter-spacing: 0.1em;
-            font-size: 1.4em;
+            font-size: 2vw;
             color: #363636;
             margin: 15px 0; }
-          html body .artOfCakes .container-flex .chefCook .row .leftQoutes {
-            align-items: flex-start; }
-            html body .artOfCakes .container-flex .chefCook .row .leftQoutes p {
-              transform-origin: center center 1px;
-              transform: rotate(180deg);
-              font-family: 'Tangerine', cursive;
-              font-size: 26px; }
-          html body .artOfCakes .container-flex .chefCook .row .blockqt {
-            align-items: center; }
-            html body .artOfCakes .container-flex .chefCook .row .blockqt p {
-              color: #8B4513;
-              font-family: 'Tangerine', cursive;
-              font-size: 26px; }
-          html body .artOfCakes .container-flex .chefCook .row .rightQoutes {
-            align-items: flex-end; }
-            html body .artOfCakes .container-flex .chefCook .row .rightQoutes p {
-              font-family: 'Tangerine', cursive;
-              transform: scale(1, -1);
-              font-size: 26px; }
-      html body .artOfCakes .container-flex .collage {
-        width: calc(100% / 2); }
-        html body .artOfCakes .container-flex .collage .flex {
-          height: 100%;
+            @media (min-width: 299px) and (max-width: 599px) {
+              html body .artOfCakes .container-flex .chefCook .row .container-inline-block .blockForNameOfCook p, html body .artOfCakes .container-flex .chefCook .row .container-inline-block .blockForLastNameOfCook p {
+                font-size: 4vw; } }
+        html body .artOfCakes .container-flex .chefCook .row .leftQoutes {
+          align-items: flex-start; }
+          html body .artOfCakes .container-flex .chefCook .row .leftQoutes p {
+            transform-origin: center center 1px;
+            transform: rotate(180deg);
+            font-family: 'Tangerine', cursive;
+            font-size: 26px; }
+        html body .artOfCakes .container-flex .chefCook .row .blockqt {
+          align-items: center; }
+          html body .artOfCakes .container-flex .chefCook .row .blockqt p {
+            color: #8B4513;
+            font-family: 'Tangerine', cursive;
+            font-size: 2.6vw; }
+            @media (min-width: 299px) and (max-width: 599px) {
+              html body .artOfCakes .container-flex .chefCook .row .blockqt p {
+                font-size: 4.1vw; } }
+        html body .artOfCakes .container-flex .chefCook .row .rightQoutes {
+          align-items: flex-end; }
+          html body .artOfCakes .container-flex .chefCook .row .rightQoutes p {
+            font-family: 'Tangerine', cursive;
+            transform: scale(1, -1);
+            font-size: 26px; }
+      @media (min-width: 299px) and (max-width: 549px) {
+        html body .artOfCakes .container-flex .chefCook {
+          width: 100%; } }
+    html body .artOfCakes .container-flex .collage {
+      width: calc(100% / 2); }
+      html body .artOfCakes .container-flex .collage .flex {
+        height: 100%;
+        align-items: center;
+        margin: 0; }
+        html body .artOfCakes .container-flex .collage .flex .container-flex {
+          position: relative;
+          height: 50%;
+          flex-wrap: wrap;
           align-items: center;
           margin: 0; }
-          html body .artOfCakes .container-flex .collage .flex .container-flex {
-            position: relative;
-            height: 50%;
-            flex-wrap: wrap;
-            align-items: center;
+          html body .artOfCakes .container-flex .collage .flex .container-flex img {
+            margin: 0 0 3% 0;
+            width: calc(100% / 2 - 1.4%);
+            height: calc(100% / 2); }
+          html body .artOfCakes .container-flex .collage .flex .container-flex img:nth-child(3), html body .artOfCakes .container-flex .collage .flex .container-flex img:nth-child(4) {
             margin: 0; }
-            html body .artOfCakes .container-flex .collage .flex .container-flex img {
-              margin: 0 0 3% 0;
-              width: calc(100% / 2 - 1.4%);
-              height: calc(100% / 2); }
-            html body .artOfCakes .container-flex .collage .flex .container-flex img:nth-child(3), html body .artOfCakes .container-flex .collage .flex .container-flex img:nth-child(4) {
-              margin: 0; }
-            html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood {
-              position: absolute;
-              top: 0;
-              left: 0;
-              display: flex;
-              flex-direction: row;
-              justify-content: center;
-              width: 100%;
-              height: 100%;
-              align-items: center; }
-              html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood .containerForBack {
-                position: relative;
-                width: calc(100% / 3); }
-                html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood .containerForBack .back-contain {
-                  background: url("../img/tastes.png") 100% 100% no-repeat;
-                  background-size: contain; }
-                html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood .containerForBack:before {
-                  padding: 51%; }
+          html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            align-items: center; }
+            html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood .containerForBack {
+              position: relative;
+              width: calc(100% / 3); }
+              html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood .containerForBack .back-contain {
+                background: url("../img/tastes.png") 100% 100% no-repeat;
+                background-size: contain; }
+              html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood .containerForBack:before {
+                padding: 51%; }
+      @media (min-width: 299px) and (max-width: 549px) {
+        html body .artOfCakes .container-flex .collage {
+          width: 100%; } }
+    @media (min-width: 299px) and (max-width: 549px) {
+      html body .artOfCakes .container-flex {
+        flex-wrap: wrap; } }
 
 html body .containerForHero .hero, html body .artOfCakes .container-flex .collage .flex .container-flex .containerForTasteSoGood .containerForBack .back-contain, html body .menu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container, html body .menu .container .container-flex .card .back-container, html body .menu .container .container-flex .card .back-container .flex .images-container .back-images-container, html body .menu .container .container-flex .card .back-container .flex .images-container .b1, html body .menu .container .container-flex .card .back-container .flex .images-container .b2, html body .menu .container .container-flex .card .back-container .flex .images-container .b3, html body .menu .container .container-flex .card .back-container .flex .images-container .b4, html body .menu .container .container-flex .card .back-container .flex .images-container .b5, html body .menu .container .container-flex .card .back-container .flex .images-container .b6, html body .menu .container .container-flex .card .back-container .flex .images-container .b7, html body .menu .container .container-flex .card .back-container .flex .images-container .b8, html body .menu .container .container-flex .card .back-container .flex .images-container .b9, html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container, html body .menu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel .back-carousel-container, html body .breakfast .container .breakfast-container .breakfast-back-container, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr .img-hr-container, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2 .card-2-container, html body .breakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-3 .card-3-container, html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich .img-back-containerSandwich, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich, html body #container-flex #back-img #secondContainer, html body #container-flex #backForForm #reservations {
   position: absolute;
@@ -727,13 +765,7 @@ html body footer {
       padding: 5% 1% 5% 5%;
       font-family: 'Playfair Display', serif;
       color: #4F4F4F;
-      font-size: 16px; }
-      @media (min-width: 1150px) and (max-width: 1210px) {
-        html body footer .container .container-flex .left-block a, html body footer .container .container-flex .left-block p, html body footer .container .container-flex .right-block a, html body footer .container .container-flex .right-block p {
-          font-size: 14px; } }
-      @media (min-width: 1100px) and (max-width: 1149px) {
-        html body footer .container .container-flex .left-block a, html body footer .container .container-flex .left-block p, html body footer .container .container-flex .right-block a, html body footer .container .container-flex .right-block p {
-          font-size: 13px; } }
+      font-size: 1.1vw; }
     html body footer .container .container-flex .left-block a:hover, html body footer .container .container-flex .right-block a:hover {
       color: #000000; }
   html body footer .container .container-flex .logo-block {
@@ -746,7 +778,7 @@ html body footer {
     html body footer .container .container-flex .logo-block a {
       text-decoration: none;
       font-family: 'Tangerine', cursive;
-      font-size: 40px;
+      font-size: 3vw;
       letter-spacing: 0.2em;
       font-weight: 600;
       color: #4F4F4F; }
