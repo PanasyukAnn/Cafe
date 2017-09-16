@@ -9,7 +9,7 @@ html {
     .artOfCakes {
       height: auto;
       width: 100%;
-      margin: 3vw 0 0;
+      margin: 3vw 0 3vw;
       .container-flex {
         @extend %container-flex;
         .chefCook {
@@ -95,6 +95,7 @@ html {
                 color: #8B4513;
                 font-family: 'Tangerine', cursive;
                 font-size: 2.6vw;
+                margin: 0;
                 @media (min-width: 299px) and (max-width: 599px) {
                   font-size: 4.1vw;
                 }
@@ -114,48 +115,78 @@ html {
           }
         }
         .collage {
+          position: relative;
           width: calc(100% / 2);
-          //border: 2px solid red;
-          .flex {
-            height: 100%;
-            @extend %container-flex;
-            align-items: center;
-            margin: 0;
-            .container-flex {
-              position: relative;
-              height: 50%;
-              flex-wrap: wrap;
+          .back-containerForCollage {
+            @extend %back-container;
+            .flex {
+              height: 100%;
+              @extend %container-flex;
               align-items: center;
               margin: 0;
-              img {
-                margin: 0 0 3% 0;
-                width: calc(100% / 2 - 1.4%);
-                height: calc(100% / 2);
-              }
-              img:nth-child(3), img:nth-child(4) {
+              .container-flex {
+                position: relative;
+                flex-wrap: wrap;
                 margin: 0;
-              }
-              .containerForTasteSoGood {
-                position: absolute;
-                top: 0;
-                left: 0;
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
                 width: 100%;
-                height: 100%;
-                align-items: center;
-                .containerForBack {
+                .containerForCollage {
                   position: relative;
-                  width: calc(100% / 3);
-                  .back-contain {
+                  width: calc(100% / 2 - 1.4%);
+                  margin: 0 0 3% 0;
+                  .back-containerForFlour, .back-containerForStrawberry, .back-containerForPastry, .back-containerForCake {
                     @extend %back-container;
-                    background: url("../img/tastes.png") 100% 100% no-repeat;
-                    background-size: contain;
+                  }
+                  .back-containerForFlour {
+                    background: url("../img/flour.png") 100% 100% no-repeat;
+                    background-size: cover;
+                  }
+                  .back-containerForPastry {
+                    background: url("../img/pestry.png") 100% 100% no-repeat;
+                    background-size: cover;
+                  }
+                  .back-containerForCake {
+                    background: url("../img/Cake.png") 100% 100% no-repeat;
+                    background-size: cover;
+                  }
+                  .back-containerForStrawberry {
+                    background: url("../img/strawberry.png") 100% 100% no-repeat;
+                    background-size: cover;
                   }
                   &:before {
                     @extend %forBefore;
-                    padding: 51%;
+                    padding: 40%;
+                  }
+                }
+                img {
+                  margin: 0 0 3% 0;
+                  width: calc(100% / 2 - 1.4%);
+                  height: calc(100% / 2);
+                }
+                img:nth-child(3), img:nth-child(4) {
+                  margin: 0;
+                }
+                .containerForTasteSoGood {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: center;
+                  width: 100%;
+                  height: 100%;
+                  align-items: center;
+                  .containerForBack {
+                    position: relative;
+                    width: calc(100% / 3);
+                    .back-contain {
+                      @extend %back-container;
+                      background: url("../img/tastes.png") 100% 100% no-repeat;
+                      background-size: contain;
+                    }
+                    &:before {
+                      @extend %forBefore;
+                      padding: 51%;
+                    }
                   }
                 }
               }
@@ -163,6 +194,10 @@ html {
           }
           @media (min-width: 299px) and (max-width: 549px) {
             width: 100%;
+          }
+          &:before {
+            @extend %forBefore;
+            padding: 50%;
           }
         }
         @media (min-width: 299px) and (max-width: 549px) {

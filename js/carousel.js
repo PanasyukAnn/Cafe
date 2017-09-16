@@ -35,6 +35,14 @@ if(screen.width < 1250) {
     margin-= 2 ;
     indent-= 1;
 }
+if(screen.width < 485) {
+    indent+= 4;
+    margin-= 3;
+    count-= 1;
+}
+if(screen.width < 400) {
+    margin+= 1;
+}
 
 carousel.querySelector('.prev').onclick = function() {
     // сдвиг влево

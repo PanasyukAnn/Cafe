@@ -133,3 +133,6 @@ document.getElementById('updown').onclick = function() {
     }
 
 };
+// var computedStyle = getComputedStyle(document.getElementById('container'));
+// var heigth = computedStyle.height;
+// console.log(heigth);

@@ -89,15 +89,25 @@
                     </div>
                 </div>
                 <div class="collage">
-                    <div class="flex">
-                        <div class="container-flex">
-                            <img src="img/flour.png">
-                            <img src="img/pestry.png">
-                            <img src="img/Cake.png">
-                            <img src="img/strawberry.png">
-                            <div class="containerForTasteSoGood">
-                                <div class="containerForBack">
-                                    <div class="back-contain"></div>
+                    <div class="back-containerForCollage">
+                        <div class="flex">
+                            <div class="container-flex">
+                                <div class="containerForCollage">
+                                    <div class="back-containerForFlour"></div>
+                                </div>
+                                <div class="containerForCollage">
+                                    <div class="back-containerForPastry"></div>
+                                </div>
+                                <div class="containerForCollage">
+                                    <div class="back-containerForCake"></div>
+                                </div>
+                                <div class="containerForCollage">
+                                    <div class="back-containerForStrawberry"></div>
+                                </div>
+                                <div class="containerForTasteSoGood">
+                                    <div class="containerForBack">
+                                        <div class="back-contain"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -107,49 +117,51 @@
         </div>
     </div>
     <div id="menu" class="menu">
-        <div class="container">
-            <div class="container-flex">
-                <div class="card">
-                    <div class="mainOfFoodContainer">
-                        <div class="foodReadiness">
-                            <div class="food-container">
-                                <p class="title">READY IN</p>
-                                <p id="time" class="time">30</p>
-                                <p class="minutes">mins</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="back-container">
-                        <div class="flex">
-                            <div class="images-container">
-                                <div id="back-images-container" class="back-images-container">
-
+        <div class="back-containerForMenu">
+            <div id="container" class="container">
+                <div class="container-flex">
+                    <div class="card">
+                        <div class="mainOfFoodContainer">
+                            <div class="foodReadiness">
+                                <div class="food-container">
+                                    <p class="title">READY IN</p>
+                                    <p id="time" class="time">30</p>
+                                    <p class="minutes">mins</p>
                                 </div>
                             </div>
-                            <div class="info-container">
-                                <div class="back-info-container">
-                                    <div id="info" class="info">
-                                        <h2 id="h2">Rice with vegetables</h2>
-                                        <p class="underTitle">SEASON FAVOURITE</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur vestibulum lectus, quis pulvinar nisl lacinia vitae. Morbi lobortis non urna sit amet suscipit. </p>
+                        </div>
+                        <div class="back-container">
+                            <div class="flex">
+                                <div class="images-container">
+                                    <div id="back-images-container" class="back-images-container">
+
                                     </div>
-                                    <div id="carousel" class="carousel">
-                                        <div class="back-carousel-container">
-                                            <button class="arrow prev">⇦</button>
-                                            <div class="gallery">
-                                                <ul class="images">
-                                                    <li><img id="1" src="img/imgForMenu/breakfast-vegan-healthy-eat-160805.jpeg"></li>
-                                                    <li><img id="2" src="img/imgForMenu/pexels-photo-209403.jpeg"></li>
-                                                    <li><img id="3" src="img/imgForMenu/pexels-photo-236804.jpeg"></li>
-                                                    <li><img id="4" src="img/imgForMenu/pexels-photo-530843.jpeg"></li>
-                                                    <li><img id="5" src="img/imgForMenu/pexels-photo-530847.jpeg"></li>
-                                                    <li><img id="6" src="img/imgForMenu/pexels-photo-530932.jpeg"></li>
-                                                    <li><img id="7" src="img/imgForMenu/pexels-photo-209273.jpeg"></li>
-                                                    <li><img id="8" src="img/imgForMenu/pexels-photo-263104.jpeg"></li>
-                                                    <li><img id="9" class="last-imgForCarousel" src="img/imgForMenu/pexels-photo-461060.jpeg"></li>
-                                                </ul>
+                                </div>
+                                <div class="info-container">
+                                    <div class="back-info-container">
+                                        <div id="info" class="info">
+                                            <h2 id="h2">Rice with vegetables</h2>
+                                            <p class="underTitle">SEASON FAVOURITE</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam efficitur vestibulum lectus, quis pulvinar nisl lacinia vitae. Morbi lobortis non urna sit amet suscipit. </p>
+                                        </div>
+                                        <div id="carousel" class="carousel">
+                                            <div class="back-carousel-container">
+                                                <button class="arrow prev">⇦</button>
+                                                <div class="gallery">
+                                                    <ul class="images">
+                                                        <li><img id="1" src="img/imgForMenu/breakfast-vegan-healthy-eat-160805.jpeg"></li>
+                                                        <li><img id="2" src="img/imgForMenu/pexels-photo-209403.jpeg"></li>
+                                                        <li><img id="3" src="img/imgForMenu/pexels-photo-236804.jpeg"></li>
+                                                        <li><img id="4" src="img/imgForMenu/pexels-photo-530843.jpeg"></li>
+                                                        <li><img id="5" src="img/imgForMenu/pexels-photo-530847.jpeg"></li>
+                                                        <li><img id="6" src="img/imgForMenu/pexels-photo-530932.jpeg"></li>
+                                                        <li><img id="7" src="img/imgForMenu/pexels-photo-209273.jpeg"></li>
+                                                        <li><img id="8" src="img/imgForMenu/pexels-photo-263104.jpeg"></li>
+                                                        <li><img id="9" class="last-imgForCarousel" src="img/imgForMenu/pexels-photo-461060.jpeg"></li>
+                                                    </ul>
+                                                </div>
+                                                <button class="arrow next">⇨</button>
                                             </div>
-                                            <button class="arrow next">⇨</button>
                                         </div>
                                     </div>
                                 </div>
@@ -162,69 +174,71 @@
     </div>
 
     <div id="reservations" class="breakfast">
-        <div class="container flex">
-            <div class="breakfast-container">
-                <div class="breakfast-back-container">
-                    <div class="container-flex">
-                        <div class="infoForBreakfast">
-                            <div class="back-info-breakfast">
-                                <h2>Breakfast</h2>
-                                <p class="timeOfBreakfast">7AM BREAKFAST</p>
-                                <h3>Full breakfast</h3>
-                                <p class="textForDish">Scrambled eggs with vegetables and cheese (180gr)</p>
-                                <p class="price">$2.5</p>
-                                <div class="img-hr">
-                                    <div class="img-hr-container"></div>
-                                </div>
-                                <h3>Toast & Jam</h3>
-                                <p class="textForDish">Apple, plum, pear, strawberry (50gr)</p>
-                                <p class="price">$1.45</p>
-                                <div class="img-hr">
-                                    <div class="img-hr-container"></div>
-                                </div>
-                                <h3>Muffins</h3>
-                                <p class="textForDish">With blueberries, walnuts, condensed milk (3 piece)</p>
-                                <p class="price">$1.8</p>
-                                <div class="img-hr">
-                                    <div class="img-hr-container"></div>
+        <div class="back-containerForBreakfast">
+            <div class="container flex">
+                <div class="breakfast-container">
+                    <div class="breakfast-back-container">
+                        <div class="container-flex">
+                            <div class="infoForBreakfast">
+                                <div class="back-info-breakfast">
+                                    <h2>Breakfast</h2>
+                                    <p class="timeOfBreakfast">7AM BREAKFAST</p>
+                                    <h3>Full breakfast</h3>
+                                    <p class="textForDish">Scrambled eggs with vegetables and cheese (180gr)</p>
+                                    <p class="price">$2.5</p>
+                                    <div class="img-hr">
+                                        <div class="img-hr-container"></div>
+                                    </div>
+                                    <h3>Toast & Jam</h3>
+                                    <p class="textForDish">Apple, plum, pear, strawberry (50gr)</p>
+                                    <p class="price">$1.45</p>
+                                    <div class="img-hr">
+                                        <div class="img-hr-container"></div>
+                                    </div>
+                                    <h3>Muffins</h3>
+                                    <p class="textForDish">With blueberries, walnuts, condensed milk (3 piece)</p>
+                                    <p class="price">$1.8</p>
+                                    <div class="img-hr">
+                                        <div class="img-hr-container"></div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="cardForBreakfast">
-                            <div class="card-back-breakfast">
-                                <div class="container-flex">
-                                    <div class="cardForReservations">
-                                        <div class="card-container-res">
-                                            <div class="top-background">
-                                                <div class="topPartOfCardForReservations">
-                                                    <div class="borderTop-container">
-                                                        <i id="date" class="day"></i>
-                                                        <i id="month" class="month"></i>
-                                                        <img src="img/line.png">
-                                                        <h2>Reserve a table in advance</h2>
-                                                        <p>You can make a table reservation right now.</p>
-                                                        <a href="form.php"><span><i>BOOK IT</i></span></a>
+                            <div class="cardForBreakfast">
+                                <div class="card-back-breakfast">
+                                    <div class="container-flex">
+                                        <div class="cardForReservations">
+                                            <div class="card-container-res">
+                                                <div class="top-background">
+                                                    <div class="topPartOfCardForReservations">
+                                                        <div class="borderTop-container">
+                                                            <i id="date" class="day"></i>
+                                                            <i id="month" class="month"></i>
+                                                            <img src="img/line.png">
+                                                            <h2>Reserve a table in advance</h2>
+                                                            <p>You can make a table reservation right now.</p>
+                                                            <a href="form.php"><span><i>BOOK IT</i></span></a>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="bottom-background">
-                                                <div class="bottomPartOfCardForReservations">
-                                                    <div class="borderBottom-container"></div>
+                                                <div class="bottom-background">
+                                                    <div class="bottomPartOfCardForReservations">
+                                                        <div class="borderBottom-container"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="containerForTriangle">
+                                                    <div class="triangle-topRight"></div>
                                                 </div>
                                             </div>
-                                            <div class="containerForTriangle">
-                                                <div class="triangle-topRight"></div>
+                                        </div>
+                                        <div class="card-2">
+                                            <div class="card-2-container">
+                                                <div class="containerForBorder-2"></div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="card-2">
-                                        <div class="card-2-container">
-                                            <div class="containerForBorder-2"></div>
-                                        </div>
-                                    </div>
-                                    <div class="card-3">
-                                        <div class="card-3-container">
-                                            <div class="containerForBorder-3"></div>
+                                        <div class="card-3">
+                                            <div class="card-3-container">
+                                                <div class="containerForBorder-3"></div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
