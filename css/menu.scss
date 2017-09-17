@@ -47,6 +47,9 @@ html {
                       color: #8B4513;
                       font-size: 1.4vw;
                       padding: 10% 0 12% 0;
+                      @media (min-width: 300px) and (max-width: 549px) {
+                        font-size: 2vw;
+                      }
                     }
                     .time {
                       @extend %dateForText;
@@ -58,6 +61,9 @@ html {
                       @extend %dateForText;
                       color: #4F4F4F;
                       font-size: 1.4vw;
+                      @media (min-width: 300px) and (max-width: 549px) {
+                        font-size: 2.4vw;
+                      }
                     }
                   }
                 }
@@ -144,6 +150,9 @@ html {
                           letter-spacing: 0.1em;
                           font-size: 3.2vw;
                           color: #363636;
+                          @media (min-width: 300px) and (max-width: 549px) {
+                            font-size: 4vw;
+                          }
                         }
                         .underTitle {
                           padding: 2% 0 7% 12%;
@@ -151,6 +160,9 @@ html {
                           font-weight: 900;
                           font-size: 1.2vw;
                           color: #8B4513;
+                          @media (min-width: 300px) and (max-width: 549px) {
+                            font-size: 2.3vw;
+                          }
                         }
                         p {
                           padding: 0 12% 0 12%;
@@ -159,6 +171,9 @@ html {
                           letter-spacing: 0.1em;
                           font-size: 1.45vw;
                           color: #4F4F4F;
+                          @media (min-width: 300px) and (max-width: 549px) {
+                            font-size: 2vw;
+                          }
                         }
                       }
                       .carousel {
@@ -296,6 +311,12 @@ html {
               &:before {
                 @extend %forBefore;
                 padding: 28.6%;
+                @media (min-width: 300px) and (max-width: 549px) {
+                  padding: 32.6%;
+                }
+              }
+              @media (min-width: 300px) and (max-width: 549px) {
+                width: 100%;
               }
             }
           }
@@ -304,6 +325,9 @@ html {
       &:before {
         @extend %forBefore;
         padding: 27%;
+        @media (min-width: 300px) and (max-width: 549px) {
+          padding: 40%;
+        }
       }
     }
   }

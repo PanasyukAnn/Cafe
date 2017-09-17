@@ -11,12 +11,18 @@ html {
         @extend %back-container;
         background: url("../img/imgForBreakfast.jpeg") no-repeat 100% 100%;
         background-size: cover;
+        @media (min-width: 299px) and (max-width: 599px) {
+          background: url("../img/imgForBreakfast.jpeg") no-repeat 20% 100%;
+        }
         .flex {
           display: flex;
           flex-direction: row;
           justify-content: center;
           height: 100%;
           align-items: center;
+          @media (min-width: 299px) and (max-width: 599px) {
+            align-items: flex-start;
+          }
         }
         .container {
           .breakfast-container {
@@ -33,6 +39,9 @@ html {
                   .back-info-breakfast {
                     @extend %back-container;
                     padding: 2%;
+                    @media (min-width: 299px) and (max-width: 599px) {
+                      margin: 10vw 0 0;
+                    }
                     h2 {
                       @extend %dateForText;
                       color: #FFFFFF;
@@ -46,7 +55,7 @@ html {
                     .timeOfBreakfast {
                       @extend %dateForText;
                       color: #8B4513;
-                      font-size: 2vw;
+                      font-size: 1.8vw;
                       margin: 0 0 8% 0;
                       @media (min-width: 299px) and (max-width: 599px) {
                         font-size: 3vw;
@@ -55,7 +64,7 @@ html {
                     h3 {
                       @extend %dateForText;
                       color: #FFFFFF;
-                      font-size: 2.8vw;
+                      font-size: 2.3vw;
                       margin: 0 0 1.5% 0;
                       @media (min-width: 299px) and (max-width: 599px) {
                         font-size: 5.5vw;
@@ -64,7 +73,7 @@ html {
                     .textForDish {
                       @extend %dateForText;
                       color: #4F4F4F;
-                      font-size: 2vw;
+                      font-size: 1.5vw;
                       margin: 0 0 1.2% 0;
                       @media (min-width: 299px) and (max-width: 599px) {
                         font-size: 3.5vw;
@@ -73,12 +82,18 @@ html {
                     .price {
                       @extend %dateForText;
                       color: #8B7500;
-                      font-size: 20px;
+                      font-size: 1.4vw;
+                      @media (min-width: 299px) and (max-width: 599px) {
+                        font-size: 2.5vw;
+                      }
                     }
                     .img-hr {
                       position: relative;
                       width: calc(100% / 3);
                       margin: 0 auto;
+                      &:last-child {
+                        margin: 0 auto 1vw;
+                      }
                       .img-hr-container {
                         @extend %back-container;
                         background: url("../img/hr.png") no-repeat 100% 100%;
@@ -150,7 +165,7 @@ html {
                                   @extend %dateForText;
                                   color: #4F4F4F;
                                   font-size: 1.7vw;
-                                  margin: 0 2% 15%;
+                                  margin: 0 2% 11%;
                                 }
                                 img {
                                   width: 100%;
@@ -163,7 +178,7 @@ html {
                                   justify-content: center;
                                   span {
                                     display: inline-block;
-                                    padding: 15px 30px;
+                                    padding: 1.2vw 2vw;
                                     border: 1px solid #DCDCDC;
                                     background-color: transparent;
                                     margin: 0 auto;
@@ -213,8 +228,8 @@ html {
                               //left: 0;
                               //width: 0;
                               //height: 0;
-                              border-top: 58px solid #FFFFFF;
-                              border-left: 58px solid transparent;
+                              border-top: 55px solid #FFFFFF;
+                              border-left: 55px solid transparent;
                               @media (min-width: 1200px) and (max-width: 1260px) {
                                 border-top: 56px solid #FFFFFF;
                                 border-left: 56px solid transparent;
@@ -236,20 +251,20 @@ html {
                                 border-left: 41px solid transparent;
                               }
                               @media (min-width: 800px) and (max-width: 1059px) {
-                                border-top: 37px solid #FFFFFF;
-                                border-left: 37px solid transparent;
+                                border-top: 35px solid #FFFFFF;
+                                border-left: 35px solid transparent;
                               }
-                              @media (min-width: 600px) and (max-width: 799px) {
-                                border-top: 34px solid #FFFFFF;
-                                border-left: 34px solid transparent;
+                              @media (min-width: 730px) and (max-width: 799px) {
+                                border-top: 32px solid #FFFFFF;
+                                border-left: 32px solid transparent;
                               }
-                              @media (min-width: 400px) and (max-width: 599px) {
+                              @media (min-width: 671px) and (max-width: 729px) {
                                 border-top: 30px solid #FFFFFF;
                                 border-left: 30px solid transparent;
                               }
-                              @media (min-width: 299px) and (max-width: 399px) {
-                                border-top: 27px solid #FFFFFF;
-                                border-left: 27px solid transparent;
+                              @media (min-width: 600px) and (max-width: 729px) {
+                                border-top: 28px solid #FFFFFF;
+                                border-left: 28px solid transparent;
                               }
                             }
                           }
@@ -325,7 +340,10 @@ html {
       }
       &:before {
         @extend %forBefore;
-        padding: 27%;
+        padding: 30%;
+        @media (min-width: 299px) and (max-width: 599px) {
+          padding: 50%;
+        }
       }
     }
   }

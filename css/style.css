@@ -122,7 +122,7 @@ html body {
           margin: 0 0 1.4vw 0; }
           @media (min-width: 299px) and (max-width: 599px) {
             html body .artOfCakes .container-flex .chefCook .row h2 {
-              font-size: 5vw; } }
+              font-size: 6vw; } }
         html body .artOfCakes .container-flex .chefCook .row .firstPOfChefCookBox {
           color: #8B4513;
           font-size: 1.2vw;
@@ -293,6 +293,9 @@ html body .menu {
                   color: #8B4513;
                   font-size: 1.4vw;
                   padding: 10% 0 12% 0; }
+                  @media (min-width: 300px) and (max-width: 549px) {
+                    html body .menu .back-containerForMenu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .title {
+                      font-size: 2vw; } }
                 html body .menu .back-containerForMenu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .time {
                   color: #4F4F4F;
                   font-size: 3vw;
@@ -300,6 +303,9 @@ html body .menu {
                 html body .menu .back-containerForMenu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .minutes {
                   color: #4F4F4F;
                   font-size: 1.4vw; }
+                  @media (min-width: 300px) and (max-width: 549px) {
+                    html body .menu .back-containerForMenu .container .container-flex .card .mainOfFoodContainer .foodReadiness .food-container .minutes {
+                      font-size: 2.4vw; } }
           html body .menu .back-containerForMenu .container .container-flex .card .back-container {
             background: linear-gradient(to top left, #DCDCDC, #4F4F4F); }
             html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex {
@@ -354,12 +360,18 @@ html body .menu {
                     letter-spacing: 0.1em;
                     font-size: 3.2vw;
                     color: #363636; }
+                    @media (min-width: 300px) and (max-width: 549px) {
+                      html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .info-container .back-info-container .info h2 {
+                        font-size: 4vw; } }
                   html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .info-container .back-info-container .info .underTitle {
                     padding: 2% 0 7% 12%;
                     font-family: 'Playfair Display', serif;
                     font-weight: 900;
                     font-size: 1.2vw;
                     color: #8B4513; }
+                    @media (min-width: 300px) and (max-width: 549px) {
+                      html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .info-container .back-info-container .info .underTitle {
+                        font-size: 2.3vw; } }
                   html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .info-container .back-info-container .info p {
                     padding: 0 12% 0 12%;
                     font-family: 'Playfair Display', serif;
@@ -367,6 +379,9 @@ html body .menu {
                     letter-spacing: 0.1em;
                     font-size: 1.45vw;
                     color: #4F4F4F; }
+                    @media (min-width: 300px) and (max-width: 549px) {
+                      html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .info-container .back-info-container .info p {
+                        font-size: 2vw; } }
                 html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel {
                   position: relative;
                   width: 100%;
@@ -478,8 +493,17 @@ html body .menu {
                   padding: 57.9%; }
           html body .menu .back-containerForMenu .container .container-flex .card:before {
             padding: 28.6%; }
+            @media (min-width: 300px) and (max-width: 549px) {
+              html body .menu .back-containerForMenu .container .container-flex .card:before {
+                padding: 32.6%; } }
+          @media (min-width: 300px) and (max-width: 549px) {
+            html body .menu .back-containerForMenu .container .container-flex .card {
+              width: 100%; } }
   html body .menu:before {
     padding: 27%; }
+    @media (min-width: 300px) and (max-width: 549px) {
+      html body .menu:before {
+        padding: 40%; } }
 
 html body .containerForHero:before, html body .artOfCakes .container-flex .collage .back-containerForCollage .flex .container-flex .containerForCollage:before, html body .artOfCakes .container-flex .collage .back-containerForCollage .flex .container-flex .containerForTasteSoGood .containerForBack:before, html body .artOfCakes .container-flex .collage:before, html body .menu .back-containerForMenu .container .container-flex .card .mainOfFoodContainer .foodReadiness:before, html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .images-container:before, html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .info-container .back-info-container .carousel:before, html body .menu .back-containerForMenu .container .container-flex .card .back-container .flex .info-container:before, html body .menu .back-containerForMenu .container .container-flex .card:before, html body .menu:before, html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr:before, html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast:before, html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations:before, html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2:before, html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-3:before, html body .breakfast .back-containerForBreakfast .container .breakfast-container:before, html body .breakfast:before, html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich:before, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich:before, html body #container-flex #back-img:before, html body #container-flex #backForForm:before {
   content: "";
@@ -491,12 +515,18 @@ html body .breakfast {
   html body .breakfast .back-containerForBreakfast {
     background: url("../img/imgForBreakfast.jpeg") no-repeat 100% 100%;
     background-size: cover; }
+    @media (min-width: 299px) and (max-width: 599px) {
+      html body .breakfast .back-containerForBreakfast {
+        background: url("../img/imgForBreakfast.jpeg") no-repeat 20% 100%; } }
     html body .breakfast .back-containerForBreakfast .flex {
       display: flex;
       flex-direction: row;
       justify-content: center;
       height: 100%;
       align-items: center; }
+      @media (min-width: 299px) and (max-width: 599px) {
+        html body .breakfast .back-containerForBreakfast .flex {
+          align-items: flex-start; } }
     html body .breakfast .back-containerForBreakfast .container .breakfast-container {
       position: relative;
       width: calc(100% / 1.1); }
@@ -507,6 +537,9 @@ html body .breakfast {
           width: calc(100% / 2 - 2%); }
           html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast {
             padding: 2%; }
+            @media (min-width: 299px) and (max-width: 599px) {
+              html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast {
+                margin: 10vw 0 0; } }
             html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast h2 {
               color: #FFFFFF;
               font-size: 3.2vw;
@@ -517,32 +550,37 @@ html body .breakfast {
                   font-size: 6vw; } }
             html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .timeOfBreakfast {
               color: #8B4513;
-              font-size: 2vw;
+              font-size: 1.8vw;
               margin: 0 0 8% 0; }
               @media (min-width: 299px) and (max-width: 599px) {
                 html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .timeOfBreakfast {
                   font-size: 3vw; } }
             html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast h3 {
               color: #FFFFFF;
-              font-size: 2.8vw;
+              font-size: 2.3vw;
               margin: 0 0 1.5% 0; }
               @media (min-width: 299px) and (max-width: 599px) {
                 html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast h3 {
                   font-size: 5.5vw; } }
             html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .textForDish {
               color: #4F4F4F;
-              font-size: 2vw;
+              font-size: 1.5vw;
               margin: 0 0 1.2% 0; }
               @media (min-width: 299px) and (max-width: 599px) {
                 html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .textForDish {
                   font-size: 3.5vw; } }
             html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .price {
               color: #8B7500;
-              font-size: 20px; }
+              font-size: 1.4vw; }
+              @media (min-width: 299px) and (max-width: 599px) {
+                html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .price {
+                  font-size: 2.5vw; } }
             html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr {
               position: relative;
               width: calc(100% / 3);
               margin: 0 auto; }
+              html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr:last-child {
+                margin: 0 auto 1vw; }
               html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .infoForBreakfast .back-info-breakfast .img-hr .img-hr-container {
                 background: url("../img/hr.png") no-repeat 100% 100%;
                 background-size: cover;
@@ -593,7 +631,7 @@ html body .breakfast {
                     html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container p {
                       color: #4F4F4F;
                       font-size: 1.7vw;
-                      margin: 0 2% 15%; }
+                      margin: 0 2% 11%; }
                     html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container img {
                       width: 100%;
                       margin: 0; }
@@ -604,7 +642,7 @@ html body .breakfast {
                       justify-content: center; }
                       html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .top-background .topPartOfCardForReservations .borderTop-container a span {
                         display: inline-block;
-                        padding: 15px 30px;
+                        padding: 1.2vw 2vw;
                         border: 1px solid #DCDCDC;
                         background-color: transparent;
                         margin: 0 auto; }
@@ -637,8 +675,8 @@ html body .breakfast {
                 width: 18%;
                 height: 13%; }
                 html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
-                  border-top: 58px solid #FFFFFF;
-                  border-left: 58px solid transparent; }
+                  border-top: 55px solid #FFFFFF;
+                  border-left: 55px solid transparent; }
                   @media (min-width: 1200px) and (max-width: 1260px) {
                     html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
                       border-top: 56px solid #FFFFFF;
@@ -661,20 +699,20 @@ html body .breakfast {
                       border-left: 41px solid transparent; } }
                   @media (min-width: 800px) and (max-width: 1059px) {
                     html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
-                      border-top: 37px solid #FFFFFF;
-                      border-left: 37px solid transparent; } }
-                  @media (min-width: 600px) and (max-width: 799px) {
+                      border-top: 35px solid #FFFFFF;
+                      border-left: 35px solid transparent; } }
+                  @media (min-width: 730px) and (max-width: 799px) {
                     html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
-                      border-top: 34px solid #FFFFFF;
-                      border-left: 34px solid transparent; } }
-                  @media (min-width: 400px) and (max-width: 599px) {
+                      border-top: 32px solid #FFFFFF;
+                      border-left: 32px solid transparent; } }
+                  @media (min-width: 671px) and (max-width: 729px) {
                     html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
                       border-top: 30px solid #FFFFFF;
                       border-left: 30px solid transparent; } }
-                  @media (min-width: 299px) and (max-width: 399px) {
+                  @media (min-width: 600px) and (max-width: 729px) {
                     html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations .card-container-res .containerForTriangle .triangle-topRight {
-                      border-top: 27px solid #FFFFFF;
-                      border-left: 27px solid transparent; } }
+                      border-top: 28px solid #FFFFFF;
+                      border-left: 28px solid transparent; } }
               html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .cardForReservations:before {
                 padding: 70%; }
             html body .breakfast .back-containerForBreakfast .container .breakfast-container .breakfast-back-container .container-flex .cardForBreakfast .card-back-breakfast .container-flex .card-2 {
@@ -713,7 +751,10 @@ html body .breakfast {
       html body .breakfast .back-containerForBreakfast .container .breakfast-container:before {
         padding: 28%; }
   html body .breakfast:before {
-    padding: 27%; }
+    padding: 30%; }
+    @media (min-width: 299px) and (max-width: 599px) {
+      html body .breakfast:before {
+        padding: 50%; } }
 
 html body .sandwich {
   width: 100%;
@@ -725,12 +766,19 @@ html body .sandwich {
     background-size: cover; }
     html body .sandwich .container .sandwichTitle h2 {
       color: #363636;
-      font-size: 40px;
+      font-size: 3.2vw;
       letter-spacing: 0.1em;
       padding: 8% 0 2%; }
+      @media (min-width: 300px) and (max-width: 549px) {
+        html body .sandwich .container .sandwichTitle h2 {
+          font-size: 6vw; } }
     html body .sandwich .container .sandwichTitle p {
       color: #8B4513;
-      font-size: 15px; }
+      font-size: 1.3vw;
+      margin: 0 0 8%; }
+      @media (min-width: 300px) and (max-width: 549px) {
+        html body .sandwich .container .sandwichTitle p {
+          font-size: 3vw; } }
   html body .sandwich .container .mainContainerForSandwich {
     width: 100%;
     height: auto; }
@@ -761,15 +809,25 @@ html body .sandwich {
             html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a .img-containerSandwich:before {
               padding: 50%; }
           html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a h3 {
-            font-size: 24px;
+            font-size: 1.5vw;
             color: #8B4513;
             margin: 5% 0 2%; }
             html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a h3:hover {
               opacity: 0.7; }
+            @media (min-width: 300px) and (max-width: 549px) {
+              html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a h3 {
+                font-size: 3.5vw; } }
           html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a p {
-            font-size: 14px;
+            font-size: 1.2vw;
             color: #4F4F4F;
             margin: 0 0 20%; }
+            @media (min-width: 300px) and (max-width: 549px) {
+              html body .sandwich .container .mainContainerForSandwich .container-flex .left-container figure a p {
+                font-size: 3vw; } }
+      @media (min-width: 300px) and (max-width: 549px) {
+        html body .sandwich .container .mainContainerForSandwich .container-flex .left-container {
+          width: calc(100% - 22% - 22%);
+          margin: 0 auto; } }
     html body .sandwich .container .mainContainerForSandwich .container-flex .right-container {
       width: calc(100% / 4 * 3 - 5%);
       height: auto; }
@@ -805,13 +863,23 @@ html body .sandwich {
                   color: #8B4513;
                   font-size: 1.6vw;
                   padding: 10% 0 20% 0; }
+                  @media (min-width: 300px) and (max-width: 549px) {
+                    html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .title, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .title {
+                      font-size: 3.2vw;
+                      padding: 10% 0; } }
                 html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .time, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .time {
                   color: #4F4F4F;
                   font-size: 3vw;
                   padding: 0 0 5% 0; }
+                  @media (min-width: 300px) and (max-width: 549px) {
+                    html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .time, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .time {
+                      font-size: 4vw; } }
                 html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .minutes, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .minutes {
                   color: #4F4F4F;
                   font-size: 1.3vw; }
+                  @media (min-width: 300px) and (max-width: 549px) {
+                    html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .prep .minutes, html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .cook .minutes {
+                      font-size: 3vw; } }
               html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich .back-containerForDishSandwich .mainContainerForTime .containerForTime .readyIn {
                 width: 100%;
                 height: calc(100% / 3.45);
@@ -829,6 +897,13 @@ html body .sandwich {
                   font-size: 1.2vw; }
         html body .sandwich .container .mainContainerForSandwich .container-flex .right-container .dish-sandwich:before {
           padding: 32%; }
+      @media (min-width: 300px) and (max-width: 549px) {
+        html body .sandwich .container .mainContainerForSandwich .container-flex .right-container {
+          width: 100%;
+          margin: 0 auto; } }
+    @media (min-width: 300px) and (max-width: 549px) {
+      html body .sandwich .container .mainContainerForSandwich .container-flex {
+        flex-wrap: wrap; } }
 
 html body footer {
   width: 100%;
@@ -846,9 +921,22 @@ html body footer {
       padding: 5% 1% 5% 5%;
       font-family: 'Playfair Display', serif;
       color: #4F4F4F;
-      font-size: 1.1vw; }
+      font-size: 1.1vw;
+      font-weight: 900; }
+      @media (min-width: 300px) and (max-width: 549px) {
+        html body footer .container .container-flex .left-block a, html body footer .container .container-flex .left-block p, html body footer .container .container-flex .right-block a, html body footer .container .container-flex .right-block p {
+          font-size: 4vw; } }
+    @media (min-width: 300px) and (max-width: 549px) {
+      html body footer .container .container-flex .left-block p, html body footer .container .container-flex .right-block p {
+        display: none; } }
     html body footer .container .container-flex .left-block a:hover, html body footer .container .container-flex .right-block a:hover {
       color: #000000; }
+    @media (min-width: 300px) and (max-width: 549px) {
+      html body footer .container .container-flex .left-block, html body footer .container .container-flex .right-block {
+        border: none;
+        order: 1;
+        width: calc(100% / 2);
+        margin: 0 auto; } }
   html body footer .container .container-flex .logo-block {
     width: calc(100% / 3);
     height: 100%;
@@ -863,8 +951,29 @@ html body footer {
       letter-spacing: 0.2em;
       font-weight: 600;
       color: #4F4F4F; }
+      @media (min-width: 300px) and (max-width: 549px) {
+        html body footer .container .container-flex .logo-block a {
+          font-size: 6vw; } }
     html body footer .container .container-flex .logo-block a:hover {
       color: #9C9C9C; }
+    @media (min-width: 300px) and (max-width: 549px) {
+      html body footer .container .container-flex .logo-block {
+        width: 100%;
+        border: 1px solid #000000;
+        border-left: none;
+        border-right: none;
+        order: 2;
+        padding: 5% 0;
+        margin: 7% 0 0; } }
+  @media (min-width: 300px) and (max-width: 549px) {
+    html body footer .container .container-flex {
+      flex-wrap: wrap; } }
+  @media (min-width: 300px) and (max-width: 549px) {
+    html body footer {
+      border: 1px solid #000000;
+      border-left: none;
+      border-right: none;
+      margin: 10% 0; } }
 html body #updown {
   height: 35px;
   width: 35px;
